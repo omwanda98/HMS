@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4faff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    border-bottom: 4px solid #007acc;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0.2em;
+}
+
+header p {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #1e90ff;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #e3f2fd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #007acc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #007acc;
+}
+
+/* Results Section */
+#result-section {
+    background: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+}
+
+#results {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* FAQ Section */
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+    color: #007acc;
+}
+
+details summary:hover {
+    text-decoration: underline;
+}
+
+details p {
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1e90ff;
+    color: white;
+}
